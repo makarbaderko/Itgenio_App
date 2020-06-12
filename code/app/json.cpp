@@ -45,6 +45,12 @@ Json::Json()
   game_dev.push_back("GameMaker");
   json.insert("Game development", game_dev);
 
+  QJsonArray modelling;
+  modelling.push_back("3D Tinkercad");
+  modelling.push_back("Sculptris");
+  modelling.push_back("3D Zbrush");
+  json.insert("3D modelling", modelling);
+
 }
 
 bool Json::create_json()

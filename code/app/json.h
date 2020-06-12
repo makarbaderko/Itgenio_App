@@ -7,6 +7,15 @@
 #include <QJsonArray>
 #include <QDebug>
 #include <QFile>
+#include <QIcon>
+#include <QWidget>
+#include <QTextDocument>
+#include <QFont>
+#include <QSize>
+#include <QDebug>
+#include <QMessageBox>
+#include <QRandomGenerator>
+#include <QImage>
 
 class Json
 {
