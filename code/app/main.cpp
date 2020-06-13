@@ -16,8 +16,8 @@ int main(int argc, char *argv[])
     if(!json.create_json())
         qDebug("Failed to create json file");
 
-    QImage img("itgenik.jpg");
-    QImage image = img.scaled(200, 300, Qt::KeepAspectRatio);
+    /*QImage img("itgenik.jpg");
+    QImage image = img.scaled(200, 300, Qt::KeepAspectRatio);*/
 
 
 
