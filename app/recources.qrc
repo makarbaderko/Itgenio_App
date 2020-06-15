@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>itgenik.jpg</file>
+    </qresource>
+</RCC>

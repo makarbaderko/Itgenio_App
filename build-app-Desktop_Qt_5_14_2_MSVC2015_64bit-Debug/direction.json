@@ -1,0 +1,44 @@
+{
+    "3D modelling": [
+        "3D Tinkercad",
+        "Sculptris",
+        "3D Zbrush"
+    ],
+    "Art": [
+        "Photoshop",
+        "Illustrator",
+        "After Effects"
+    ],
+    "Basic": [
+        "Scratch",
+        "IT",
+        "Minecraft",
+        "App inventor"
+    ],
+    "Desktop development": [
+        "Python",
+        "C++",
+        "Java",
+        "C#"
+    ],
+    "Game development": [
+        "Scratch",
+        "Roblox",
+        "Minecraft",
+        "Python: Pygame",
+        "Unity",
+        "GameMaker"
+    ],
+    "Mobile development": [
+        "App Inventor",
+        "Java",
+        "Java: Android",
+        "Unity"
+    ],
+    "Web Development": [
+        "HTML & CSS",
+        "JavaScript",
+        "Node.js",
+        "Python: Flask"
+    ]
+}

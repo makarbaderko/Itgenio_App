@@ -1,0 +1,273 @@
+/********************************************************************************
+** Form generated from reading UI file 'widget.ui'
+**
+** Created by: Qt User Interface Compiler version 5.9.9
+**
+** WARNING! All changes made in this file will be lost when recompiling UI file!
+********************************************************************************/
+
+#ifndef UI_WIDGET_H
+#define UI_WIDGET_H
+
+#include <QtCore/QVariant>
+#include <QtWidgets/QAction>
+#include <QtWidgets/QApplication>
+#include <QtWidgets/QButtonGroup>
+#include <QtWidgets/QHeaderView>
+#include <QtWidgets/QLabel>
+#include <QtWidgets/QPushButton>
+#include <QtWidgets/QRadioButton>
+#include <QtWidgets/QTabWidget>
+#include <QtWidgets/QWidget>
+
+QT_BEGIN_NAMESPACE
+
+class Ui_Widget
+{
+public:
+    QTabWidget *tabWidget;
+    QWidget *tab;
+    QLabel *label;
+    QPushButton *pushButton;
+    QWidget *tab_2;
+    QRadioButton *radioButton;
+    QLabel *label_2;
+    QRadioButton *radioButton_2;
+    QRadioButton *radioButton_3;
+    QPushButton *pushButton_2;
+    QWidget *tab_3;
+    QLabel *label_3;
+    QRadioButton *radioButton_4;
+    QRadioButton *radioButton_5;
+    QRadioButton *radioButton_6;
+    QPushButton *pushButton_3;
+    QWidget *tab_4;
+    QLabel *label_4;
+    QRadioButton *radioButton_7;
+    QRadioButton *radioButton_8;
+    QRadioButton *radioButton_9;
+    QRadioButton *radioButton_10;
+    QRadioButton *radioButton_11;
+    QPushButton *pushButton_4;
+    QWidget *tab_5;
+    QLabel *label_5;
+    QLabel *label_6;
+
+    void setupUi(QWidget *Widget)
+    {
+        if (Widget->objectName().isEmpty())
+            Widget->setObjectName(QStringLiteral("Widget"));
+        Widget->resize(350, 500);
+        tabWidget = new QTabWidget(Widget);
+        tabWidget->setObjectName(QStringLiteral("tabWidget"));
+        tabWidget->setGeometry(QRect(0, -21, 350, 521));
+        tabWidget->setStyleSheet(QStringLiteral("background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0.267, stop:0 rgba(140, 255, 0, 138), stop:1 rgba(255, 255, 255, 255));"));
+        tab = new QWidget();
+        tab->setObjectName(QStringLiteral("tab"));
+        label = new QLabel(tab);
+        label->setObjectName(QStringLiteral("label"));
+        label->setGeometry(QRect(25, 30, 321, 121));
+        QFont font;
+        font.setFamily(QStringLiteral("Century Gothic"));
+        font.setPointSize(12);
+        font.setBold(true);
+        font.setWeight(75);
+        label->setFont(font);
+        label->setStyleSheet(QStringLiteral("background-color: transparent;"));
+        pushButton = new QPushButton(tab);
+        pushButton->setObjectName(QStringLiteral("pushButton"));
+        pushButton->setGeometry(QRect(75, 360, 200, 70));
+        QFont font1;
+        font1.setFamily(QStringLiteral("Century Gothic"));
+        font1.setPointSize(11);
+        font1.setBold(true);
+        font1.setItalic(true);
+        font1.setWeight(75);
+        pushButton->setFont(font1);
+        pushButton->setStyleSheet(QLatin1String("background-color: #36ff00;\n"
+"border-radius: 15px\n"
+"\n"
+""));
+        tabWidget->addTab(tab, QString());
+        tab_2 = new QWidget();
+        tab_2->setObjectName(QStringLiteral("tab_2"));
+        radioButton = new QRadioButton(tab_2);
+        radioButton->setObjectName(QStringLiteral("radioButton"));
+        radioButton->setGeometry(QRect(21, 133, 250, 36));
+        QFont font2;
+        font2.setFamily(QStringLiteral("Century Gothic"));
+        font2.setPointSize(10);
+        font2.setItalic(true);
+        radioButton->setFont(font2);
+        radioButton->setStyleSheet(QStringLiteral("background-color: transparent;"));
+        label_2 = new QLabel(tab_2);
+        label_2->setObjectName(QStringLiteral("label_2"));
+        label_2->setGeometry(QRect(50, 30, 271, 91));
+        QFont font3;
+        font3.setFamily(QStringLiteral("Century Gothic"));
+        font3.setPointSize(11);
+        font3.setBold(true);
+        font3.setWeight(75);
+        label_2->setFont(font3);
+        label_2->setStyleSheet(QStringLiteral("background-color: transparent;"));
+        radioButton_2 = new QRadioButton(tab_2);
+        radioButton_2->setObjectName(QStringLiteral("radioButton_2"));
+        radioButton_2->setGeometry(QRect(21, 197, 277, 52));
+        radioButton_2->setFont(font2);
+        radioButton_2->setStyleSheet(QStringLiteral("background-color: transparent;"));
+        radioButton_3 = new QRadioButton(tab_2);
+        radioButton_3->setObjectName(QStringLiteral("radioButton_3"));
+        radioButton_3->setGeometry(QRect(21, 277, 303, 20));
+        radioButton_3->setFont(font2);
+        radioButton_3->setStyleSheet(QStringLiteral("background-color: transparent;"));
+        pushButton_2 = new QPushButton(tab_2);
+        pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
+        pushButton_2->setGeometry(QRect(75, 360, 200, 70));
+        pushButton_2->setFont(font1);
+        pushButton_2->setStyleSheet(QLatin1String("background-color: #36ff00;\n"
+"border-radius: 15px"));
+        tabWidget->addTab(tab_2, QString());
+        tab_3 = new QWidget();
+        tab_3->setObjectName(QStringLiteral("tab_3"));
+        label_3 = new QLabel(tab_3);
+        label_3->setObjectName(QStringLiteral("label_3"));
+        label_3->setGeometry(QRect(60, 20, 231, 111));
+        label_3->setFont(font3);
+        label_3->setStyleSheet(QStringLiteral("background-color: transparent;"));
+        radioButton_4 = new QRadioButton(tab_3);
+        radioButton_4->setObjectName(QStringLiteral("radioButton_4"));
+        radioButton_4->setGeometry(QRect(21, 139, 266, 20));
+        radioButton_4->setFont(font2);
+        radioButton_4->setStyleSheet(QStringLiteral("background-color: transparent;"));
+        radioButton_5 = new QRadioButton(tab_3);
+        radioButton_5->setObjectName(QStringLiteral("radioButton_5"));
+        radioButton_5->setGeometry(QRect(21, 183, 277, 52));
+        radioButton_5->setFont(font2);
+        radioButton_5->setStyleSheet(QStringLiteral("background-color: transparent;"));
+        radioButton_6 = new QRadioButton(tab_3);
+        radioButton_6->setObjectName(QStringLiteral("radioButton_6"));
+        radioButton_6->setGeometry(QRect(21, 259, 171, 20));
+        radioButton_6->setFont(font2);
+        radioButton_6->setStyleSheet(QStringLiteral("background-color: transparent;"));
+        pushButton_3 = new QPushButton(tab_3);
+        pushButton_3->setObjectName(QStringLiteral("pushButton_3"));
+        pushButton_3->setGeometry(QRect(75, 360, 200, 70));
+        pushButton_3->setFont(font1);
+        pushButton_3->setStyleSheet(QLatin1String("background-color: #36ff00;\n"
+"border-radius: 15px"));
+        tabWidget->addTab(tab_3, QString());
+        tab_4 = new QWidget();
+        tab_4->setObjectName(QStringLiteral("tab_4"));
+        label_4 = new QLabel(tab_4);
+        label_4->setObjectName(QStringLiteral("label_4"));
+        label_4->setGeometry(QRect(20, 20, 341, 111));
+        label_4->setFont(font3);
+        label_4->setStyleSheet(QStringLiteral("background-color: transparent;"));
+        radioButton_7 = new QRadioButton(tab_4);
+        radioButton_7->setObjectName(QStringLiteral("radioButton_7"));
+        radioButton_7->setGeometry(QRect(21, 130, 261, 20));
+        radioButton_7->setFont(font2);
+        radioButton_7->setStyleSheet(QStringLiteral("background-color: transparent;"));
+        radioButton_8 = new QRadioButton(tab_4);
+        radioButton_8->setObjectName(QStringLiteral("radioButton_8"));
+        radioButton_8->setGeometry(QRect(21, 165, 276, 36));
+        radioButton_8->setFont(font2);
+        radioButton_8->setStyleSheet(QStringLiteral("background-color: transparent;"));
+        radioButton_9 = new QRadioButton(tab_4);
+        radioButton_9->setObjectName(QStringLiteral("radioButton_9"));
+        radioButton_9->setGeometry(QRect(21, 216, 232, 36));
+        radioButton_9->setFont(font2);
+        radioButton_9->setStyleSheet(QStringLiteral("background-color: transparent;"));
+        radioButton_10 = new QRadioButton(tab_4);
+        radioButton_10->setObjectName(QStringLiteral("radioButton_10"));
+        radioButton_10->setGeometry(QRect(21, 302, 291, 36));
+        radioButton_10->setFont(font2);
+        radioButton_10->setStyleSheet(QStringLiteral("background-color: transparent;"));
+        radioButton_11 = new QRadioButton(tab_4);
+        radioButton_11->setObjectName(QStringLiteral("radioButton_11"));
+        radioButton_11->setGeometry(QRect(21, 267, 160, 20));
+        radioButton_11->setFont(font2);
+        radioButton_11->setStyleSheet(QStringLiteral("background-color: transparent;"));
+        pushButton_4 = new QPushButton(tab_4);
+        pushButton_4->setObjectName(QStringLiteral("pushButton_4"));
+        pushButton_4->setGeometry(QRect(75, 360, 200, 70));
+        pushButton_4->setFont(font1);
+        pushButton_4->setStyleSheet(QLatin1String("background-color: #36ff00;\n"
+"border-radius: 15px"));
+        tabWidget->addTab(tab_4, QString());
+        tab_5 = new QWidget();
+        tab_5->setObjectName(QStringLiteral("tab_5"));
+        label_5 = new QLabel(tab_5);
+        label_5->setObjectName(QStringLiteral("label_5"));
+        label_5->setGeometry(QRect(60, 20, 201, 131));
+        label_5->setFont(font3);
+        label_5->setStyleSheet(QStringLiteral("background-color: transparent;"));
+        label_6 = new QLabel(tab_5);
+        label_6->setObjectName(QStringLiteral("label_6"));
+        label_6->setGeometry(QRect(40, 180, 251, 41));
+        label_6->setStyleSheet(QStringLiteral("background-color: transparent;"));
+        tabWidget->addTab(tab_5, QString());
+
+        retranslateUi(Widget);
+
+        tabWidget->setCurrentIndex(0);
+
+
+        QMetaObject::connectSlotsByName(Widget);
+    } // setupUi
+
+    void retranslateUi(QWidget *Widget)
+    {
+        Widget->setWindowTitle(QApplication::translate("Widget", "Widget", Q_NULLPTR));
+        label->setText(QApplication::translate("Widget", "       \320\237\321\200\320\270\320\262\320\265\321\202! \320\274\320\265\320\275\321\217 \320\267\320\276\320\262\321\203\321\202 \320\220\320\271\321\202\320\270\320\263\320\265\320\275\320\270\320\272. \n"
+"\320\257 \320\277\320\276\320\274\320\276\320\263\321\203 \321\202\320\265\320\261\320\265 \320\262\321\213\320\261\321\200\320\260\321\202\321\214 \320\275\320\260\320\277\321\200\320\260\320\262\320\273\320\265\320\275\320\270\321\217 \n"
+"                     \320\262 \320\275\320\260\321\210\320\265\320\271 \321\210\320\272\320\276\320\273\320\265. ", Q_NULLPTR));
+        pushButton->setText(QApplication::translate("Widget", "\320\237\320\276\320\264\320\261\320\276\321\200 \320\275\320\260\320\277\321\200\320\260\320\262\320\273\320\265\320\275\320\270\321\217 ", Q_NULLPTR));
+        tabWidget->setTabText(tabWidget->indexOf(tab), QApplication::translate("Widget", "Tab 1", Q_NULLPTR));
+        radioButton->setText(QApplication::translate("Widget", "\320\227\320\260\320\275\320\270\320\274\320\260\321\202\321\214\321\201\321\217 \321\202\320\262\320\276\321\200\321\207\320\265\321\201\321\202\320\262\320\276\320\274 \n"
+"(\321\200\320\270\321\201\320\276\320\262\320\260\321\202\321\214, \320\273\320\265\320\277\320\270\321\202\321\214, \321\204\320\260\320\275\321\202\320\260\320\267\320\270\321\200\320\276\320\262\320\260\321\202\321\214)", Q_NULLPTR));
+        label_2->setText(QApplication::translate("Widget", "    \320\237\320\276\320\264\321\201\320\272\320\260\320\266\320\270, \320\277\320\276\320\266\320\260\320\273\321\203\320\271\321\201\321\202\320\260, \n"
+"\321\207\321\202\320\276 \321\202\320\265\320\261\320\265 \320\275\321\200\320\260\320\262\320\270\321\202\321\201\321\217 \320\261\320\276\320\273\321\214\321\210\320\265?", Q_NULLPTR));
+        radioButton_2->setText(QApplication::translate("Widget", "\320\234\320\265\321\207\321\202\320\260\321\216 \320\277\321\200\320\276\320\263\321\200\320\260\320\274\320\274\320\270\321\200\320\276\320\262\320\260\321\202\321\214, \n"
+"\320\270\320\267\321\203\321\207\320\260\321\202\321\214 \320\260\320\273\320\263\320\276\321\200\320\270\321\202\320\274\321\213, \320\267\320\260\320\277\321\203\321\201\320\272\320\260\321\202\321\214 \321\200\320\260\320\272\320\265\321\202\321\213 \320\262 \n"
+"\320\272\320\276\321\201\320\274\320\276\321\201!", Q_NULLPTR));
+        radioButton_3->setText(QApplication::translate("Widget", "\320\233\321\216\320\261\320\273\321\216 \321\202\320\262\320\276\321\200\321\207\320\265\321\201\321\202\320\262\320\276, \320\270 \320\277\321\200\320\276\320\263\321\200\320\260\320\274\320\274\320\270\321\200\320\276\320\262\320\260\320\275\320\270\320\265!", Q_NULLPTR));
+        pushButton_2->setText(QApplication::translate("Widget", "\320\224\320\260\320\273\320\265\320\265 ", Q_NULLPTR));
+        tabWidget->setTabText(tabWidget->indexOf(tab_2), QApplication::translate("Widget", "Tab 2", Q_NULLPTR));
+        label_3->setText(QApplication::translate("Widget", "\320\230\321\202\320\260\320\272, \321\202\320\262\320\276\321\200\321\207\320\265\321\201\320\272\320\260\321\217 \320\273\320\270\321\207\320\275\320\276\321\201\321\202\321\214. \n"
+"    \320\242\320\265\320\277\320\265\321\200\321\214 \320\277\320\276 \320\272\320\276\320\275\320\272\321\200\320\265\321\202\320\275\320\265\320\265:", Q_NULLPTR));
+        radioButton_4->setText(QApplication::translate("Widget", "X\320\276\321\207\321\203 \321\200\320\270\321\201\320\276\320\262\320\260\321\202\321\214, \321\200\320\265\320\264\320\260\320\272\321\202\320\270\321\200\320\276\320\262\320\260\321\202\321\214 \321\204\320\276\321\202\320\276.", Q_NULLPTR));
+        radioButton_5->setText(QApplication::translate("Widget", "\320\245\320\276\321\207\321\203 \320\274\320\276\320\264\320\265\320\273\320\270\321\200\320\276\320\262\320\260\321\202\321\214 \320\267\320\264\320\260\320\275\320\270\321\217, \320\277\321\200\320\265\320\264\320\274\320\265\321\202\321\213 \n"
+"\320\270\320\275\321\202\320\265\321\200\321\214\320\265\321\200\320\260, \320\272\320\276\320\275\321\201\321\202\321\200\321\203\320\270\321\200\320\276\320\262\320\260\321\202\321\214 \321\204\320\270\320\263\321\203\321\200\320\272\320\270 \320\270 \n"
+"\320\277\320\265\321\207\320\260\321\202\320\260\321\202\321\214 \320\270\321\205 \320\275\320\260 3D - \320\277\321\200\320\270\320\275\321\202\320\265\321\200\320\265 ", Q_NULLPTR));
+        radioButton_6->setText(QApplication::translate("Widget", "\320\245\320\276\321\207\321\203 \321\201\320\276\320\267\320\264\320\260\320\262\320\260\321\202\321\214 \320\274\321\203\320\267\321\213\320\272\321\203", Q_NULLPTR));
+        pushButton_3->setText(QApplication::translate("Widget", "\320\224\320\260\320\273\320\265\320\265", Q_NULLPTR));
+        tabWidget->setTabText(tabWidget->indexOf(tab_3), QApplication::translate("Widget", "Tab 3", Q_NULLPTR));
+        label_4->setText(QApplication::translate("Widget", "\320\243 \321\202\320\265\320\261\321\217 \321\201\320\265\321\200\321\214\321\221\320\267\320\275\321\213\320\265 \320\275\320\260\320\274\320\265\321\200\320\265\320\275\320\270\321\217, \320\274\320\276\320\271 \320\264\321\200\321\203\320\263! \n"
+"                \320\242\320\265\320\277\320\265\321\200\321\214 \320\277\320\276\320\272\320\276\320\275\320\272\321\200\320\265\321\202\320\275\320\265\320\265:", Q_NULLPTR));
+        radioButton_7->setText(QApplication::translate("Widget", "\320\245\320\276\321\207\321\203 \320\264\320\265\320\273\320\260\321\202\321\214 \321\201\320\260\320\271\321\202\321\213, \320\262\320\265\320\261-\320\277\321\200\320\270\320\273\320\276\320\266\320\265\320\275\320\270\321\217.", Q_NULLPTR));
+        radioButton_8->setText(QApplication::translate("Widget", "\320\245\320\276\321\207\321\203 \320\267\320\260\320\275\320\270\320\274\320\260\321\202\321\214\321\201\321\217 \320\276\320\261\321\200\320\260\320\261\320\276\321\202\320\272\320\276\320\271 \320\264\320\260\320\275\320\275\321\213\321\205, \n"
+"\320\260\320\273\320\263\320\276\321\200\320\270\321\202\320\274\320\260\320\274\320\270 \320\270 \320\277\320\270\321\201\320\260\321\202\321\214 \321\201\320\265\321\200\321\214\320\265\320\267\320\275\321\213\320\271 \320\272\320\276\320\264", Q_NULLPTR));
+        radioButton_9->setText(QApplication::translate("Widget", "\320\245\320\276\321\207\321\203 \321\201\320\276\320\267\320\264\320\260\320\262\320\260\321\202\321\214 \320\277\321\200\320\270\320\273\320\276\320\266\320\265\320\275\320\270\321\217 \320\264\320\273\321\217 \n"
+"\321\201\320\274\320\260\321\200\321\202\321\204\320\276\320\275\320\276\320\262!", Q_NULLPTR));
+        radioButton_10->setText(QApplication::translate("Widget", "\320\257 \320\277\320\276\320\272\320\260 \320\275\320\265 \320\277\321\200\320\276\320\263\321\200\320\260\320\274\320\270\321\200\320\276\320\262\320\260\320\273(-\320\260) \320\270 \320\275\320\265 \320\267\320\275\320\260\321\216 \n"
+"\321\207\320\265\320\263\320\276 \321\205\320\276\321\207\321\203", Q_NULLPTR));
+        radioButton_11->setText(QApplication::translate("Widget", "\320\245\320\276\321\207\321\203 \321\201\320\276\320\267\320\264\320\260\320\262\320\260\321\202\321\214 \320\270\320\263\321\200\321\213!", Q_NULLPTR));
+        pushButton_4->setText(QApplication::translate("Widget", "\320\224\320\260\320\273\320\265\320\265", Q_NULLPTR));
+        tabWidget->setTabText(tabWidget->indexOf(tab_4), QApplication::translate("Widget", "Tab 4", Q_NULLPTR));
+        label_5->setText(QApplication::translate("Widget", "              \320\242\320\260\320\264\320\260\320\260\320\260\320\260!...\n"
+" \320\222\320\276\321\202 \321\207\321\202\320\276 \321\202\320\265\320\261\320\265 \320\277\321\200\320\265\320\264\320\273\320\260\320\263\320\260\320\265\321\202 \n"
+"      \320\270\320\267\321\203\321\207\320\270\321\202\321\214 \320\220\320\271\321\202\320\270\320\263\320\265\320\275\320\270\320\272: ", Q_NULLPTR));
+        label_6->setText(QApplication::translate("Widget", "TextLabel", Q_NULLPTR));
+        tabWidget->setTabText(tabWidget->indexOf(tab_5), QApplication::translate("Widget", "Tab 5", Q_NULLPTR));
+    } // retranslateUi
+
+};
+
+namespace Ui {
+    class Widget: public Ui_Widget {};
+} // namespace Ui
+
+QT_END_NAMESPACE
+
+#endif // UI_WIDGET_H
